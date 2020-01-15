@@ -4,10 +4,8 @@ class Employees {
 	Executives[] executive;
 	Lead[] lead;
 
-	// constructor has type of data that is required
 
 	Employees(Manager[] managerobject, Executives[] executiveobject, Lead[] leadobject) {
-		// TODO Auto-generated constructor stub
 		this.manager = managerobject;
 		this.executive = executiveobject;
 		this.lead = leadobject;
@@ -36,5 +34,5 @@ class Employees {
 	public void setC(Executives[] c) {
 		this.executive = c;
 	}
-
+	
 }

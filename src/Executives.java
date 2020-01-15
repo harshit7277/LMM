@@ -1,7 +1,7 @@
-
 public class Executives extends EmployeesProfile {
 
 	String designation;
+	String date;
 
 	public Executives(int id, String username, int password, String email) {
 		super(id, username, password, email);
@@ -11,5 +11,6 @@ public class Executives extends EmployeesProfile {
 	public String getDesignation() {
 		return designation;
 	}
-
+	
+	
 }

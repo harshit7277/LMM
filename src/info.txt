@@ -1,0 +1,39 @@
+Class
+
+1.Executives
+2.Lead
+3.Manager
+4.Attendence
+5.Leave
+6.EmployeesProfile
+7.Employees
+
+
+HashMAp
+
+attendence_details :- Store attendence details
+leave_details_executives :- Store leave details of executives
+leave_details_lead :- Store leave details of lead
+leave_details_manager :- Store leave details of manager
+
+
+Array
+
+managerobject
+executiveobject
+leadobject
+
+
+Credentials for login
+
+for manager:
+id:1, username: "abc", password: 1234, email: "abc@intimetec.com"
+id:2, username: "cde", password: 5678, email: "cde@intimetec.com"
+
+for executives
+id:3, username: "fgh", password: 1234, email: "fgh@intimetec.com"
+id:4, username: "ijk", password: 5678, email: "ijk@intimetec.com"
+
+for lead
+id:5, username: "klm", password: 1234, email: "klm@intimetec.com"
+id:6, username: "nop", password: 1234, email: "nop@intimetec.com"

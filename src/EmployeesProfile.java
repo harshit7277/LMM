@@ -1,10 +1,14 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
 
-public class EmployeesProfile {
+abstract public class EmployeesProfile {
 
 	int id;
 	String username;
 	private int password;
 	String email;
+	String date;
 
 	public EmployeesProfile(int id, String username, int password, String email) {
 		this.id = id;

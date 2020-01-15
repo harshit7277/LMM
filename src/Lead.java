@@ -1,7 +1,10 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
 
 public class Lead extends EmployeesProfile {
 
-	String designation;
+	String designation,date;
 
 	public Lead(int id, String username, int password, String email) {
 		super(id, username, password, email);
@@ -12,5 +15,7 @@ public class Lead extends EmployeesProfile {
 	public String getDesignation() {
 		return designation;
 	}
+	
+
 
 }
