@@ -5,13 +5,13 @@ import java.util.HashMap;
 public class Attendence {
 	String username;
 	String date;
-	boolean b;
+	boolean attendence_mark;
 
 	public Attendence(){};
 	public Attendence(String username, String date, boolean b) {
 		this.username = username;
 		this.date = date;
-		this.b = b;
+		this.attendence_mark = b;
 	}
 	
 	public void giveAttendnce(HashMap<Integer,Attendence> attendence,String Username,int userid) {	
