@@ -9,7 +9,7 @@ Class
 7.Employees
 
 
-HashMAp
+HashMap
 
 attendence_details :- Store attendence details
 leave_details_executives :- Store leave details of executives

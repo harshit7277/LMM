@@ -1,7 +1,3 @@
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-
 public class Manager extends EmployeesProfile {
 
 	String designation,date;
